@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Data Science and Machine Learning Failures
+email: abhishek [at] montrealethics [dot] ai
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  When things go wrong in Data Science and Machine Learning. 
+twitter_username: atg_abhishek
+github_username: atg-abhishek
 minimal_mistakes_skin: default
 search: true
 
@@ -58,34 +56,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Abhishek Gupta"
+  avatar : "/assets/images/abhishek.jpg"
+  bio    : "Abhishek Gupta is an AI Ethics Researcher and Machine Learning Engineer."
   links:
-    - label: "Website"
+    - label: "Personal Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://atg-abhishek.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/atg_abhishek"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/atg-abhishek"
 
 footer:
   links:
+    - label: "Personal Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://atg-abhishek.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/atg_abhishek"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/atg-abhishek"
 
 defaults:
   # _posts
